@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Martel', serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.page-container {
+    width: 70%;
+    padding: 60px 150px 0 150px;
+}
+
+.name {
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+.nav-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container li {
+    list-style-type: none;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-weight: 900;
+}
+
+.nav-a:hover {
+    color: #00aec2;
+}
+
+.header-title {
+    margin-bottom: 30px;
+}
+
+.header-p {
+    text-align: justify;
+    font-weight: 200;
+}
+
+.header-p a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+
+.header-p a:hover {
+    color: #00aec2;
+}
+
+.home-container {
+    margin-top: 70px;
+}
+
+.about-title {
+    margin-bottom: 30px;
+}
+
+.about-p {
+    text-align: justify;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 1200px) {
+    .page-container {
+        width: 90%;
+    }
+    .nav-container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .nav-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .page-container {
+        width: 100%;
+        padding: 30px 40px 0 40px;
+    }
+    .nav-a {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .page-container {
+        width: 100%;
+        padding: 30px 25px 0 25px;
+    }
+    .nav-container {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .name {
+        text-align: center;
+    }
+    .header-title {
+        text-align: center;
+    }
+}
+
+
+
