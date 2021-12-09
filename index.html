@@ -18,17 +18,22 @@
         </div>
         
         <nav class="nav-container">
+            <li><a href="#" class="nav-a">HOME</a></li>
             <li><a href="#" class="nav-a">ABOUT</a></li>
             <li><a href="#" class="nav-a">PROJECTS</a></li>
-            <li><a href="#" class="nav-a">ARTICLES</a></li>
             <li><a href="#" class="nav-a">CONTACT</a></li>
         </nav>
+
+        <div class="pic-container">
+            <img id="emoji-pic" src="./emoji.jpg" alt="Emoji profile picture">
+        </div>
+
         <main class="home-container">
             <header>
                 <h1 class="header-title">Hi, I'm Adrian.</h1>
                 <p class="header-p">
-                    I'm a Full-Stack Web Developer from Mexico City 🇲🇽. I'm looking for getting recruited 
-                    at a company or getting into custom projects for clients. Also, I like to be working on
+                    I'm a Full-Stack Software Developer from Mexico City 🇲🇽. I'm looking for getting recruited 
+                    at a company or getting into custom projects for clients. I like to be working on
                     my own projects either for fun or to give something a try. 
                     <br>
                     <br>
@@ -42,7 +47,7 @@
             <h1 class="about-title">About Me</h1>
             <p class="about-p">
                 I’m a 22-year-old student of Innovation Engineering -at Monterrey Institute of Technology and 
-                Higher Education- interested in Software Development. I’m from Mexico City and I like working 
+                Higher Education- graduating in December of 2022 and interested in Software Development. I’m from Mexico City and I like working 
                 on my own projects and having fun when coming up with new ideas to code. I’m currently skilled 
                 at general web development, which includes HTML, CSS and JavaScript and Git. Currently I’m developing 
                 some projects, including this one while still learning at the coding bootcamp I’m attending.
@@ -55,11 +60,39 @@
                 <br>
                 <br>
                 I’d like to start to write some articles for the page. Which would be a place where I can throw any idea 
-                that comes to my mind, which can be a huge mischief. 
+                that comes to my mind regarding productivity, software development thoughts and more! 
 
             </p>
         </main>
     
+        <div class="projects-container">
+            <h1 class="projects-title">Projects</h1>
+            <p class="projects-p">These are the projects I've been working on. Hope you like them and if you're
+                interested furthermore, check out my Github profile for details about the code. 
+            </p>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-pic" src="./pikachu.png" alt="pikachu">
+                    <h3 class="card-title">Pokedex</h3>
+                    <p class="card-description">Search for Pokemons using the PokeAPI</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="contact-container">
+        <h1 class="contact-title">Contact</h1>
+        <p class="contact-p">Feel free to contact me for information regarding my services or for work
+            opportunities you're offering! 📩</p>
+        <div class="form-container">
+            <form action="submit">
+                <label for="name-input">Name</label>
+                <input id="name-input" type="text" maxlength = "20">
+                <label for="last-name-input">Last Name</label>
+                <input id="last-name-input" type="text" max-length = "40">
+            </form>
+        </div>
+    </div>
+
     </div>
 
     <script src="./app.js"></script>
