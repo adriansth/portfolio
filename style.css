@@ -139,12 +139,31 @@ main {
 
 .contact-p {
     font-weight: 200;
+    margin-bottom: 30px;
 }
 
 .form-container {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+}
 
+.contact-input {
+    margin-bottom: 30px;
+}
+
+.contact-input label {
+    padding: 10px;
+}
+
+#submit {
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 1200px) {
